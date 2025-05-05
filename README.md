@@ -1,5 +1,5 @@
 
-# 📅 Componente Calendario - Java
+# 📅 Componente Calendario
 
 Componente en Java para crear un calendario interactivo con opción de selección de fechas. Este componente tiene una interfaz gráfica basada en JPanel, que permite visualizar un calendario y seleccionar una fecha en especifico.
 
@@ -29,7 +29,7 @@ La clase `Calendario` extiende `JPanel` y proporciona los métodos necesarios pa
 | `getFechaSeleccionada()` | Devuelve la fecha seleccionada por el usuario. | Código | Devuelve un `java.time.LocalDate`. Se usa para obtener la selección hecha por el usuario. No aplicable en GUI como propiedad directa. |
 | `actualizarCalendario()` | Actualiza la vista del calendario según el mes y año actuales. | Código | Refresca internamente la vista con los parámetros actuales de mes/año. Se usa tras cambios dinámicos. |
 
-> 💡 Nota: Para editar las propiedades del componente Calendario directamente en diseño, te recomendamos usar NetBeans como IDE, gracias a su Palette Manager integrado que facilita agregar y configurar componentes visualmente.
+> 💡 Nota: Para editar las propiedades del componente Calendario directamente en diseño, te recomendamos usar NetBeans como IDE, ya que su Palette Manager integrado facilita agregar y configurar componentes visualmente.
 
 ## 📦 Instalación
 1. Clona el repositorio:
